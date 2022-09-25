@@ -15,4 +15,4 @@ docker run -v `pwd`:/var/task -it lambci/lambda:build-ruby2.7 bundle install --p
 zip -r function.zip lambda_function.rb amazon_book.rb amazon_book_display.rb amazon_get_item.rb amazon_get_review.rb vendor
 ```
 
-- AWS コンソールの Lambda の画面から アップロード
+- AWS コンソールの Lambda の画面から `function.zip` をアップロード
