@@ -8,6 +8,7 @@
 ```
 docker run -v `pwd`:/var/task -it lambci/lambda:build-ruby2.7 bundle install --path vendor/bundle
 ```
+（参考：https://teratail.com/questions/206480 ）
 
 - ファイルの圧縮
 
